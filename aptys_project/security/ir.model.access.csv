@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_order_line_extend_user,sale.order.line,sale.model_sale_order_line,group_project_manager_sale,1,1,1,1
+access_sale_order_extend_user,sale.order,sale.model_sale_order,group_project_manager_sale,1,1,1,1
+access_project_profitability_report_analysis_extend_user,project.profitability.report.analysis,sale_timesheet.model_project_profitability_report,group_project_manager_sale,1,1,1,1
