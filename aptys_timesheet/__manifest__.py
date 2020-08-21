@@ -1,15 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Aptys project',
+    'name': 'Aptys timesheet',
     'version': '13.0.1.0.0',
-    'summary': """Additional features for project module""",
-    'description': 'Additional features for project odoo module',
-    'category': 'Project',
+    'summary': """Additional features for timesheet module""",
+    'description': 'Additional features for timesheet odoo module',
+    'category': 'Timesheet',
     'author': 'Idealis Consulting',
     'website': 'http://www.idealisconsulting.com',
-    'depends': ['base','project'],
+    'depends': ['base','hr_timesheet','timesheet_grid'],
     'data': [
-        'security/project_security.xml',
+        'security/hr_timesheet_security.xml',
+        'views/hr_timesheet_views.xml',
     ],
     'images': [],
     'license': 'LGPL-3',

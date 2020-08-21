@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Line edition and creation from grid / can not create new task -->
+        <record id="aptys_timesheet_view_form" model="ir.ui.view">
+            <field name="name">aptys.account.analytic.line.form</field>
+            <field name="model">account.analytic.line</field>
+            <field name="inherit_id" ref="timesheet_grid.timesheet_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='task_id']" position="attributes">
+                    <attribute name="options">{"no_create": True}</attribute>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
