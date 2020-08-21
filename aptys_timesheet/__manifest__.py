@@ -9,7 +9,7 @@
     'website': 'http://www.idealisconsulting.com',
     'depends': ['base','hr_timesheet','timesheet_grid'],
     'data': [
-        'security/hr_timesheet_security.xml',
+        # 'security/hr_timesheet_security.xml',
         'views/hr_timesheet_views.xml',
     ],
     'images': [],
